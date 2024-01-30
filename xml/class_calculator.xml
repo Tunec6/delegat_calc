@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_calculator" kind="class" language="C#" prot="public">
+    <compoundname>Calculator</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_calculator_1af9f6e0464e79172a42b9162e5e4a7388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Calculator.Plus</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Plus</name>
+        <qualifiedname>Calculator.Plus</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Параметр который возвращает сложение переменных </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="23" column="20" bodyfile="Program.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calculator_1a06baf7c3dfaae38e8cb4510222de3260" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Calculator.Min</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Min</name>
+        <qualifiedname>Calculator.Min</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Параметр который возвращает вычитание переменных </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="33" column="20" bodyfile="Program.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calculator_1a55ad16ef0316fa694252c899335c416c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Calculator.Mult</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Mult</name>
+        <qualifiedname>Calculator.Mult</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Параметр который возвращает умножение переменных </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="43" column="20" bodyfile="Program.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calculator_1ad268666e0159c8201fcfdfb3519323e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Calculator.Del</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Del</name>
+        <qualifiedname>Calculator.Del</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Параметр который возвращает деление переменных </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="53" column="20" bodyfile="Program.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Оболочка калькулятора, с заданными действиями </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="16" column="7" bodyfile="Program.cs" bodystart="16" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_calculator_1ad268666e0159c8201fcfdfb3519323e2" prot="public" virt="non-virtual"><scope>Calculator</scope><name>Del</name></member>
+      <member refid="class_calculator_1a06baf7c3dfaae38e8cb4510222de3260" prot="public" virt="non-virtual"><scope>Calculator</scope><name>Min</name></member>
+      <member refid="class_calculator_1a55ad16ef0316fa694252c899335c416c" prot="public" virt="non-virtual"><scope>Calculator</scope><name>Mult</name></member>
+      <member refid="class_calculator_1af9f6e0464e79172a42b9162e5e4a7388" prot="public" virt="non-virtual"><scope>Calculator</scope><name>Plus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_program_8cs" kind="file" language="C#">
+    <compoundname>Program.cs</compoundname>
+    <innerclass refid="class_calculator" prot="public">Calculator</innerclass>
+    <innerclass refid="class_program" prot="public">Program</innerclass>
+    <innernamespace refid="namespace_system_1_1_reflection_1_1_metadata_1_1_ecma335">System::Reflection::Metadata::Ecma335</innernamespace>
+    <innernamespace refid="namespace_system_1_1_security_1_1_cryptography_1_1_x509_certificates">System::Security::Cryptography::X509Certificates</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate int</type>
+        <definition>delegate int Delegat</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Delegat</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Здесь делегат являеться конструктором в который будут подставляться переменные </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="12" column="21" declfile="Program.cs" declline="12" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Reflection.Metadata.Ecma335;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Security.Cryptography.X509Certificates;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="keyword">public</highlight><highlight class="normal"><sp/>delegate<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kindref="member">Delegat</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y);<sp/></highlight></codeline>
+<codeline lineno="16" refid="class_calculator" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_calculator" kindref="compound">Calculator</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_calculator_1af9f6e0464e79172a42b9162e5e4a7388" kindref="member">Plus</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>+<sp/>y;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_calculator_1a06baf7c3dfaae38e8cb4510222de3260" kindref="member">Min</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>-<sp/>y;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_calculator_1a55ad16ef0316fa694252c899335c416c" kindref="member">Mult</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>*<sp/>y;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_calculator_1ad268666e0159c8201fcfdfb3519323e2" kindref="member">Del</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>/<sp/>y;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="class_program" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_program" kindref="compound">Program</ref></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_program_1ad22b0f776312e09174fc36a1e4bade60" kindref="member">Main</ref>()</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_calculator" kindref="compound">Calculator</ref><sp/>calculator<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_calculator" kindref="compound">Calculator</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kindref="member">Delegat</ref><sp/>Minus<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kindref="member">Delegat</ref>(calculator.<ref refid="class_calculator_1a06baf7c3dfaae38e8cb4510222de3260" kindref="member">Min</ref>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kindref="member">Delegat</ref><sp/>Del<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kindref="member">Delegat</ref>(calculator.<ref refid="class_calculator_1ad268666e0159c8201fcfdfb3519323e2" kindref="member">Del</ref>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kindref="member">Delegat</ref><sp/>Plus<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kindref="member">Delegat</ref>(calculator.<ref refid="class_calculator_1af9f6e0464e79172a42b9162e5e4a7388" kindref="member">Plus</ref>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kindref="member">Delegat</ref><sp/>Mult<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kindref="member">Delegat</ref>(calculator.<ref refid="class_calculator_1a55ad16ef0316fa694252c899335c416c" kindref="member">Mult</ref>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(</highlight><highlight class="stringliteral">&quot;Вычитание:&quot;</highlight><highlight class="normal"><sp/>+<sp/>Minus(214,<sp/>12));</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(</highlight><highlight class="stringliteral">&quot;Сложение:&quot;</highlight><highlight class="normal"><sp/>+<sp/>Plus(10,2));</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(</highlight><highlight class="stringliteral">&quot;Деление:&quot;</highlight><highlight class="normal"><sp/>+<sp/>Del(521,7));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(</highlight><highlight class="stringliteral">&quot;Умножение:&quot;</highlight><highlight class="normal"><sp/>+<sp/>Mult(15,<sp/>12));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Program.cs"/>
+  </compounddef>
+</doxygen>

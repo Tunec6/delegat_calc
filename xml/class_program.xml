@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_program" kind="class" language="C#" prot="public">
+    <compoundname>Program</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_program_1ad22b0f776312e09174fc36a1e4bade60" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>Program.Main</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Program.cs" line="67" column="17" bodyfile="Program.cs" bodystart="67" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Класс который запускает программу и в котором вводяться значения для вычисления </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="65" column="1" bodyfile="Program.cs" bodystart="66" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_program_1ad22b0f776312e09174fc36a1e4bade60" prot="private" virt="non-virtual"><scope>Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

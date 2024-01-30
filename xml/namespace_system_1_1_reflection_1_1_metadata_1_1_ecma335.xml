@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespace_system_1_1_reflection_1_1_metadata_1_1_ecma335" kind="namespace" language="C#">
+    <compoundname>System::Reflection::Metadata::Ecma335</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Program.cs" line="2" column="41"/>
+  </compounddef>
+</doxygen>

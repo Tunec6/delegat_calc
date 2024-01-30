@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="class_calculator" kind="class"><name>Calculator</name>
+    <member refid="class_calculator_1af9f6e0464e79172a42b9162e5e4a7388" kind="function"><name>Plus</name></member>
+    <member refid="class_calculator_1a06baf7c3dfaae38e8cb4510222de3260" kind="function"><name>Min</name></member>
+    <member refid="class_calculator_1a55ad16ef0316fa694252c899335c416c" kind="function"><name>Mult</name></member>
+    <member refid="class_calculator_1ad268666e0159c8201fcfdfb3519323e2" kind="function"><name>Del</name></member>
+  </compound>
+  <compound refid="class_program" kind="class"><name>Program</name>
+    <member refid="class_program_1ad22b0f776312e09174fc36a1e4bade60" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection_1_1_metadata_1_1_ecma335" kind="namespace"><name>System::Reflection::Metadata::Ecma335</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography_1_1_x509_certificates" kind="namespace"><name>System::Security::Cryptography::X509Certificates</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+    <member refid="_program_8cs_1ae74e4d09dba36b2c00d4c7fea004412c" kind="function"><name>Delegat</name></member>
+  </compound>
+</doxygenindex>
