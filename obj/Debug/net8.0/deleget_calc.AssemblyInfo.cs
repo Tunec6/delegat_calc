@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("deleget_calc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c35c38ee3c95bfcd9ce01de3a69eb47ceecffa9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0bd8ff572dc9231353a44bd9dc1dd1608b4d607")]
 [assembly: System.Reflection.AssemblyProductAttribute("deleget_calc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("deleget_calc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
